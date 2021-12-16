@@ -1,0 +1,126 @@
+h1 span{
+    font-size: 550px;
+    color: rgb(241, 0, 0);
+    border: black;
+    border-radius: 100px;
+    border-width: 30px;
+    border-style: solid;
+    padding: 30px;
+    float: left;
+    size: 50%;
+    margin-left: 20px;
+}
+h2{
+    font-size: 230px;
+    color: red;
+    text-align: center;
+    text-decoration-line: underline ;
+}
+.logo{
+    float: right;
+    size: 50%;
+    height: 760px;
+    width: 1200px;
+    border-radius: 100px;
+    margin-right: 20px;
+    margin-left: 40px;
+}
+.ul{
+    list-style-type: square;
+    margin: 0;
+    padding: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    overflow: hidden;
+    background-color: black;
+    font-size: 60px;
+}
+.list{
+    float: left;
+    display: table;
+    text-align: center;
+    padding: 18px;
+    background-color: black;
+}
+.list:hover {
+    background-color:red;
+    color: black;
+}
+.link{
+    color: white;
+}
+.link:hover {
+    color: black;
+}
+li{
+    font-size: 80px;
+    text-indent: 60px;
+}
+.slider{
+    width: 4000px;
+    height: 2500px;
+    background-color: red;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    text-align: center;
+    overflow: hidden;
+    float: below;
+}
+.image-container {
+    width: 16000px;
+    background-color: red;
+    height: 2500px;
+    clear: both;
+    position: relative;
+    -webkit-transition: left 1s;
+    -moz-transition: left 1s;
+    -o-transition: left 1s;
+    transition: left 1s;
+  }
+  .slide {
+    height: 2500px;
+    width: 4000px;
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+  }
+  #slide-1:target ~ .image-container {
+    left: 0px;
+  }
+  #slide-2:target ~ .image-container {
+    left: -4000px;
+  }
+  #slide-3:target ~ .image-container {
+    left: -8000px;
+  }
+  #slide-4:target ~ .image-container {
+    left: -12000px;
+  }
+  .buttons {
+    position: relative;
+    top: -100px;
+  }
+  #button1{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.buttons a {
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  border-radius: 100px;
+  background-color: red;
+}
+.button:hover{
+    color: white;
+}
+.div1{
+    float: center;
+    size: 100%;
+    padding-left: 48px;
+    margin-top: 180px;
+    margin-left: 75px;
+    padding-top: 800px;
+}

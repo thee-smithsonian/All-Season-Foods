@@ -1,0 +1,11 @@
+h3{
+    background-color: red;
+    font-style: italic;
+    font-size: xx-large;
+}
+#para2{
+    text-overflow: ellipsis;
+    text-shadow: black;
+    text-decoration-style: solid;
+    font-style: inherit;
+}

@@ -1,0 +1,30 @@
+h4{
+    font-style: italic;
+    font-size: xxx-large;
+    text-align: center;
+    text-decoration-line: underline;
+}
+span{
+    background-color: rgb(1, 255, 1);
+}
+p{
+  font-size: 150%;
+  color: black;
+}
+img{
+    width: 430px;
+    height: 400px;
+}
+h5{
+    font-size: 250%;
+    text-decoration-line: underline;
+    color: rgb(0, 15, 100);
+}
+body{
+    background-image: url("green tea 1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
+    background-size: cover;
+    height: 100%;
+}

@@ -21,6 +21,7 @@ h2{
   max-width: 1920px;
   min-width: 480px;
   overflow: hidden;
+  
 }
 .logo{
     float: right;
@@ -33,7 +34,6 @@ h2{
     margin-bottom: 130px;
     margin-top: 0px;
 }
-
 .slider{
     width: 1330px;
     height: 675px;

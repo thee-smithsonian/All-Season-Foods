@@ -51,5 +51,41 @@ body{
     width: 100%;
 }
 .msg textarea{
-    height: 209px;
+    height: 208px;
+}
+::-webkit-input-placeholder{
+    color: rgba(247, 243, 243, 0.493);
+}
+::-moz-input-placeholder{
+    color: rgba(247, 243, 243, 0.493);
+}
+::-ms-input-placeholder{
+    color: rgba(247, 243, 243, 0.493);
+}
+.send{
+    background: wheat;
+    text-align: center;
+    padding: 15px;
+    border-radius: 5px;
+    color: black;
+    cursor: pointer;
+    text-transform: uppercase;
+    text-decoration: solid;
+    font-size: 20px;
+}
+.send:hover{
+    color: black;
+    background: brown;
+}
+@media screen and (max-width: 700px){
+    .contact-form{
+        flex-direction: column;
+    }
+    .msg textarea{
+        height: 80px;
+    }
+    .input-fields,
+    .msg{
+        width: 100%;
+    }
 }

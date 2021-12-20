@@ -1,64 +1,42 @@
 h1 span{
-    font-size: 550px;
+    font-size: 120px;
     color: rgb(241, 0, 0);
     border: black;
-    border-radius: 100px;
-    border-width: 30px;
+    border-radius: 30px;
+    border-width: 10px;
     border-style: solid;
-    padding: 30px;
+    padding: 20px;
     float: left;
     size: 50%;
     margin-left: 20px;
 }
 h2{
-    font-size: 230px;
-    color: red;
+    font-size: 55px;
+    color: rgb(241, 0, 0);
     text-align: center;
     text-decoration-line: underline ;
+}
+.wrapper{
+  width:100%;
+  max-width: 1920px;
+  min-width: 480px;
+  overflow: hidden;
 }
 .logo{
     float: right;
     size: 50%;
-    height: 760px;
-    width: 1200px;
-    border-radius: 100px;
+    height: 200px;
+    width: 310px;
+    border-radius: 30px;
     margin-right: 20px;
     margin-left: 40px;
+    margin-bottom: 130px;
+    margin-top: 0px;
 }
-.ul{
-    list-style-type: square;
-    margin: 0;
-    padding: 10px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    overflow: hidden;
-    background-color: black;
-    font-size: 60px;
-}
-.list{
-    float: left;
-    display: table;
-    text-align: center;
-    padding: 18px;
-    background-color: black;
-}
-.list:hover {
-    background-color:red;
-    color: black;
-}
-.link{
-    color: white;
-}
-.link:hover {
-    color: black;
-}
-li{
-    font-size: 80px;
-    text-indent: 60px;
-}
+
 .slider{
-    width: 4000px;
-    height: 2500px;
+    width: 1330px;
+    height: 675px;
     background-color: red;
     margin-left: auto;
     margin-right: auto;
@@ -67,10 +45,63 @@ li{
     overflow: hidden;
     float: below;
 }
+a{
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.dp{
+  background-color: black;
+}
+.dp::after{
+  content: "";
+  clear: both;
+  display: block;
+  margin-bottom: -60px;
+}
+.dp ul{
+  list-style: none;
+  margin: 5px;
+}
+.dp > ul > li{
+  float: left;
+  position: relative;
+}
+.dp ul li a{
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  display: block;
+  margin-left: 6px;
+  margin-top: 6px;
+}
+.dp ul li:hover a{
+  background: red;
+}
+.dp ul ul{
+  position: absolute;
+  padding: 0;
+  min-width: 160px;
+  display: none;
+  top: 100%;
+  left: 0;
+
+}
+.dp ul li:hover > ul{
+  display: block;
+}
+.dp ul ul li{
+  position: relative;
+  margin-top: -10px;
+  margin-bottom: 10px;
+  float: center;
+}
+.dp ul ul li:hover a{
+  background: black;
+}
 .image-container {
-    width: 16000px;
+    width: 6650px;
     background-color: red;
-    height: 2500px;
+    height: 675px;
     clear: both;
     position: relative;
     -webkit-transition: left 1s;
@@ -79,8 +110,8 @@ li{
     transition: left 1s;
   }
   .slide {
-    height: 2500px;
-    width: 4000px;
+    height: 675px;
+    width: 1330px;
     float: left;
     margin: 0px;
     padding: 0px;
@@ -90,26 +121,26 @@ li{
     left: 0px;
   }
   #slide-2:target ~ .image-container {
-    left: -4000px;
+    left: -1330px;
   }
   #slide-3:target ~ .image-container {
-    left: -8000px;
+    left: -2660px;
   }
   #slide-4:target ~ .image-container {
-    left: -12000px;
+    left: -3990px;
   }
   .buttons {
     position: relative;
-    top: -100px;
+    top: -30px;
   }
   #button1{
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 .buttons a {
   display: inline-block;
-  height: 50px;
-  width: 50px;
+  height: 10px;
+  width: 10px;
   border-radius: 100px;
   background-color: red;
 }
@@ -119,8 +150,123 @@ li{
 .div1{
     float: center;
     size: 100%;
-    padding-left: 48px;
-    margin-top: 180px;
-    margin-left: 75px;
-    padding-top: 800px;
+    padding-left: none;
+    margin-top: 200px;
+    margin-left: 0;
+    padding-top: none;
+}
+.div2{
+  width: 35%;
+  margin-right: 0;
+}
+.rep{
+  height: 130px;
+  width: 250px;
+}
+.para1{
+  text-indent: 20px;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+.rep-items{
+  border-top: blue;
+  border-bottom: rgb(241, 0, 0);
+  border-left: white;
+  border-right: white;
+  border-width: 5px;
+  border-style: solid;
+  padding: none;
+  display: flex;
+}
+.pro{
+  font-size: 50px;
+  text-align: center;
+  width: 30%;
+  margin-top: 0;
+  margin-right: 60px;
+}
+.ad{
+  float: right;
+  width: 35%;
+}
+.dis{
+  font-size: 30px;
+  font-style: italic;
+  margin-left: 40px;
+}
+.zoom{
+  font-size: 80px;
+  margin-left: 40px;
+  margin-bottom: 40px;
+  margin-top: 0;
+}
+
+.a{
+  color: black;
+}
+.a:hover{
+  color: white;
+}
+.al{
+  list-style-type: square;
+  margin: 0;
+  padding: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  overflow: hidden;
+  background-color: rgb(241, 0, 0);
+  font-size: 25px;
+  font-weight: bolder;
+  margin-top: -50px;
+  margin-bottom: -180px;
+  width: 100%;
+}
+.list1{
+  float: left;
+  display: block;
+  text-align: left;
+  padding: 5px;
+  background-color: rgb(241, 0, 0);
+  padding-right: 20px;
+  font-size: 25px;
+}
+.list1:hover {
+  background-color:white;
+  color: black;
+}
+.link1{
+  color: black;
+}
+.link1:hover {
+  color: black;
+}
+#link a{
+  display: none;
+}
+.dp ul > ul > li{
+  position: relative;
+}
+.search{
+  width: 400px;
+  padding: 5px;
+  border: red;
+  border-style: solid;
+  border-width: 1px;
+  font-size: 18px;
+  text-align: left;
+  margin: 7px;
+  margin-left: 160px;
+}
+.icon{
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: red;
+  width: 35px;
+  height: 32px;
+  border-radius: none;
+  color: white; 
+  margin-top: 8px;
+  margin-right: 6px;
 }

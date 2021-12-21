@@ -1,3 +1,18 @@
+/* Media Queries: Tablet Landscape */
+@media screen and (max-width: 1060px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}  
+}
+
+/* Media Queries: Tabled Portrait */
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
+}
+html { font-size:100%; }
+@media (min-width: 640px) { body {font-size:1rem;} } 
+@media (min-width:960px) { body {font-size:1.2rem;} } 
+@media (min-width:1100px) { body {font-size:1.5rem;} } 
 h1{
     font-size: 70px;
     text-align: center;
@@ -91,6 +106,9 @@ h4{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-decoration: bold; 
 }
+img {
+    max-width: 100%; height: auto;
+}
 .img{
     height:200px;
     width:300px;
@@ -102,7 +120,7 @@ h4{
 }
 .firstimages{
     height: 500px;
-    width: 656px;
+    width: 653px;
     border: black;
     border-width: 4px;
     border-style: solid;
@@ -110,7 +128,7 @@ h4{
 }
 .secondimages{
     height: 240px;
-    width: 320px;
+    width: 318px;
     border: black;
     border-width: 5px;
     border-style: solid;
@@ -237,7 +255,7 @@ body{
 }
 li{
     font-size: 20px;
-    text-indent: 20px;
+    text-indent: 15px;
 }
 ol{
     list-style-type: circle;

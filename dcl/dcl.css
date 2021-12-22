@@ -1,13 +1,27 @@
+/* Media Queries: Tablet Landscape */
+@media screen and (max-width: 1060px) {
+  #primary { width:67%; }
+  #secondary { width:30%; margin-left:3%;}  
+}
+
+/* Media Queries: Tabled Portrait */
+@media screen and (max-width: 768px) {
+  #primary { width:100%; }
+  #secondary { width:100%; margin:0; border:none; }
+}
+html { font-size:100%; }
+@media (min-width: 640px) { body {font-size:1rem;} } 
+@media (min-width:960px) { body {font-size:1.2rem;} } 
+@media (min-width:1100px) { body {font-size:1.5rem;} } 
 h1 span{
-    font-size: 120px;
+    font-size: 7rem;
     color: rgb(241, 0, 0);
     border: black;
-    border-radius: 30px;
-    border-width: 10px;
+    border-radius: 10px;
+    border-width: 38%;
     border-style: solid;
     padding: 20px;
     float: left;
-    size: 50%;
     margin-left: 20px;
 }
 h2{
@@ -15,6 +29,32 @@ h2{
     color: rgb(241, 0, 0);
     text-align: center;
     text-decoration-line: underline ;
+}
+h3{
+  font-size: 30px;
+  text-decoration-line: underline;
+  color: rgb(241, 0, 0);
+  font-style: solid;
+}
+h4 a{
+  font-size: 25px;
+  text-decoration-line: underline;
+  color: black;
+  font-style: solid;
+}
+.firstimages{
+  border: black;
+  border-style: solid;
+  border-width: 2px;
+  height: 220px;
+  width: 257px;
+  size: 100%;
+  margin-right: 0;
+  display: flex right;
+}
+.secondimages{
+  height: 200px;
+  width: 200px;
 }
 .wrapper{
   width:100%;
@@ -26,9 +66,9 @@ h2{
 .logo{
     float: right;
     size: 50%;
-    height: 200px;
-    width: 310px;
-    border-radius: 30px;
+    height: 2%;
+    width: 19%;
+    border-radius: 10px;
     margin-right: 20px;
     margin-left: 40px;
     margin-bottom: 130px;
@@ -51,6 +91,7 @@ a{
 }
 .dp{
   background-color: black;
+  height: 50px;
 }
 .dp::after{
   content: "";
@@ -180,11 +221,14 @@ a{
   display: flex;
 }
 .pro{
-  font-size: 50px;
+  
   text-align: center;
   width: 30%;
   margin-top: 0;
   margin-right: 60px;
+}
+.pro p{
+  font-size: 50px;
 }
 .ad{
   float: right;
@@ -256,17 +300,68 @@ a{
   font-size: 18px;
   text-align: left;
   margin: 7px;
-  margin-left: 160px;
+  margin-left: 100px;
 }
-.icon{
-  position: absolute;
-  top: 0;
-  right: 0;
-  background: red;
-  width: 35px;
-  height: 32px;
-  border-radius: none;
-  color: white; 
+.send-button{
+  height: 30px;
+  width: 100px;
+  font-size: 20px;
+  margin-bottom: -50px;
+  text-align: center;
   margin-top: 8px;
-  margin-right: 6px;
+  margin-right: 10px;
+  color: black;
+  background-color: white;
+}
+.send-button:hover{
+  background-color: red;
+}
+.about{
+  margin-top: 40px;
+  font-size: 90px;
+  background-color: black;
+  color: rgb(241, 0, 0);
+  padding-top: 100px;
+  padding-bottom: 100px;
+  text-align: center;
+  margin-bottom: 120px;
+}
+p{
+  font-size: 20px;
+}
+.h3{
+  color: rgb(219, 0, 0);
+  font-size: 40px;
+  text-align: center;
+}
+.back{
+  width: 80%;
+  float: center;
+   text-align: none;
+   text-indent: 30px;
+   background: rgb(158, 158, 163);
+   color: black;
+   padding-left: 20px;
+   padding-right: 10px;
+   padding-bottom: 20px;
+   padding-top: 5px;
+   margin-top: 20px;
+   margin-right: 20%;
+   margin-left: 8%;
+}
+.ol{
+  padding-top: 20px;
+  font-size: 20px;
+  text-align: left;
+  list-style: square;
+  font-style: italic;
+}
+.ol li{
+  padding-top: 10px;
+}
+.h5{
+  font-size: 30px;
+  color: rgb(219, 0, 0);
+  text-decoration-line: underline;
+  margin-bottom: -20px;
 }

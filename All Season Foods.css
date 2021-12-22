@@ -129,11 +129,11 @@ img {
 }
 .secondimages{
     height: 240px;
-    width: 322px;
+    width: 321px;
     border: black;
     border-width: 5px;
     border-style: solid;
-    margin-left: -5px;
+    margin-left: -3px;
     size: 50%;
 }
 .thirdimages{

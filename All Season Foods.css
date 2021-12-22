@@ -120,19 +120,20 @@ img {
 }
 .firstimages{
     height: 500px;
-    width: 653px;
+    width: 660px;
     border: black;
     border-width: 4px;
     border-style: solid;
     size: 100%;
+    margin-left: -5px;
 }
 .secondimages{
     height: 240px;
-    width: 318px;
+    width: 322px;
     border: black;
     border-width: 5px;
     border-style: solid;
-    margin-right: 0;
+    margin-left: -5px;
     size: 50%;
 }
 .thirdimages{

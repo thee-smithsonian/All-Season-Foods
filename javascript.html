@@ -3,9 +3,142 @@
 <body>
 <h2>What Can JavaScript Do?</h2>
 <p>JavaScript can change HTML content.</p>
+<p id="demo">JavaScript can change HTML content.</p>
 <button onclick="document.getElementById('myImage').src='pic_bulbon.gif'">Turn on the bulb</button>
 <img id="myImage" src="pic_bulboff.gif" width="100px">
 <button onclick="document.getElementById('myImage').src='pic_bulboff.gif'">Turn off the bulb</button>
 <script src="myScript.js"></script>
+<script>
+    let length = 16 //Number
+    let lastName = "Smith" //string
+    let x = {firstName:"Piima" lastName:"Smith"} //subject
+    let x = 16 + "cars";
+
+    let x = 5
+    let y = 5
+    let z = 6
+    (x==y)
+    (x==z)
+
+    const array_name = [item1,item2,item3,.....]
+    const cars = ["benz","ferrari","bugatti"]
+    const cars = [
+        "volkswagen",
+        "audi"
+        "lamborghini",
+    ]
+
+    const cars = []
+    cars[0] = "benz"
+    cars[1] = "audi"
+    cars[2] = "toyota"
+
+    cars.length //returns number of elements
+    cars.sort() //returns the array
+    let length = cars.length
+    let cars = cars[0]
+    let cars = cars[cars.length - 1]
+
+    const person = { //objects
+        firstName:"Piima",
+        lastName:"Smith",
+        age:"18",
+        eyeColor:"brown"
+    }
+
+    typeof "John"                 // Returns "string"
+    typeof 3.14                   // Returns "number"
+    typeof NaN                    // Returns "number"
+    typeof false                  // Returns "boolean"
+    typeof [1,2,3,4]              // Returns "object"
+    typeof {name:'John', age:34}  // Returns "object"
+    typeof new Date()             // Returns "object"
+    typeof function () {}         // Returns "function"
+    typeof myCar                  // Returns "undefined" *
+    typeof null                   // Returns "null"
+
+    document.getElementsByid(demo).innerHTML = 
+    person.firstName + "is" + age + "years old.";
+
+    //if statement
+    if(condition){
+        //block of code to be executed if the condition is true
+    }
+    if (hour<18){
+        greeting = "Good Day"
+    }
+    //else  statement
+    if (condition){
+        //block of code to be executed if the condition is true
+    }
+    else (condition){
+        //block of code to be executed if the condition is false
+    }
+    if (hour<18){
+        greeting = "Good Day"
+    }
+    else (hour<18){
+        greeting = "Good Evening"
+    }
+
+    //elseif statement
+    //syntax
+    if (condition1){
+        //block of code to be executed if the condition1 is true
+    }
+    elseif (condition2){
+        //block of code to be executed if the condition1 is false and conition2 is true
+    }
+    else {
+        //block of code to be executed if the condition1 is false and condition2 is falses
+    }
+    //example
+    if (time<10){
+        greeting = "Good morning"
+    }
+    elseif (time<20){
+        greeting = "Good day"
+    }
+    else{
+        greeting = "Good evening"
+    }
+
+    //switch statement
+    //syntax
+    switch(expression){
+        case x:greeting
+        //code block
+        break;
+        case y:
+            //code block
+            break;
+            default:
+                //code block
+    }
+
+    //example
+    switch (new Date() .getDay()){
+        case x:greeting
+        //code block
+        break;
+        case x:greeting
+        //code block
+        break;
+        case x:greeting
+        //code block
+        break;
+        case x:greeting
+        //code block
+        break;
+        case x:greeting
+        //code block
+        break;
+        case x:greeting
+        //code block
+        break; 
+    }
+
+    
+</script>
 </body>
 </html>
